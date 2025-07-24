@@ -1,94 +1,108 @@
-/* Reset */
+/* Reset & Base */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  background: #f0f4f8;
   color: #333;
-  line-height: 1.6;
+  display: flex;
+  flex-direction: row;
 }
 
+/* Side Navbar */
 nav {
+  width: 220px;
   background: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  height: 100vh;
+  padding: 2rem 1rem;
+  position: fixed;
+  border-right: 1px solid #e0e0e0;
 }
 
 .navbar {
   list-style: none;
   display: flex;
-  justify-content: center;
-  padding: 1rem;
-  gap: 2rem;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .navbar li a {
   text-decoration: none;
-  color: #333;
+  color: #555;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .navbar li a:hover {
-  color: #0073e6;
+  color: #3b82f6;
 }
 
+/* Main Layout */
+main {
+  margin-left: 240px;
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+/* Header */
 header {
   text-align: center;
-  padding: 2rem;
-  background: #fff;
+  margin-bottom: 2rem;
 }
 
 .profile-pic {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
+  border: 4px solid #ccc;
   margin-bottom: 1rem;
-  border: 4px solid #ddd;
 }
 
+/* Section Styles */
 section {
+  background: #ffffff;
+  border-radius: 12px;
   padding: 2rem;
-  max-width: 900px;
-  margin: auto;
-  background: #fff;
-  margin-top: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
 h1, h2, h3 {
   color: #222;
-}
-
-ul {
-  padding-left: 1.5rem;
-  margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
+ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Cards */
 .project-card, .job-entry, .edu-entry {
   margin-bottom: 1.5rem;
   padding: 1rem;
-  background: #fefefe;
-  border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  transition: 0.3s;
+  border-left: 4px solid #3b82f6;
+  background: #f9fafb;
+  border-radius: 8px;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #eef6ff;
+  transition: background 0.3s ease;
 }
 
+/* Links */
 a {
-  color: #0073e6;
+  color: #3b82f6;
   text-decoration: none;
 }
 
@@ -96,11 +110,10 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Footer */
 footer {
   text-align: center;
-  padding: 1rem;
-  background: #eee;
   font-size: 0.9rem;
+  color: #777;
   margin-top: 2rem;
-  border-top: 1px solid #ddd;
 }
