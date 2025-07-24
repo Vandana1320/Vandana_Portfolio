@@ -7,8 +7,19 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="Vandana-Photo.png" alt="Vandana Chegondi" class="profile-pic" />
+  <nav>
+    <ul class="navbar">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="about">
+    <img src="Vandana-photo.png" alt="Vandana Chegondi" class="profile-pic" />
     <h1>Vandana Chegondi</h1>
     <p>Master’s Student in Electronics Engineering – Hochschule Bremen, Germany</p>
   </header>
@@ -19,43 +30,58 @@
       <h3>Hochschule Bremen, Germany</h3>
       <p><strong>Masters in Electronics Engineering</strong> (Apr 2023 – Present)</p>
       <ul>
-        <li>Fibre Optics and Test Measurement, Optical Communications</li>
-        <li>Image Processing and Pattern Recognition</li>
-        <li>Embedded Systems (Python, MATLAB, LTspice)</li>
-        <li>Lab: Transistor testing using LabVIEW, optical sensor setup, alignment, fiber coupling</li>
+        <li>Courses: Fibre Optics, Optical Communication, Image Processing, Embedded Systems</li>
+        <li>Tools: Python, MATLAB, LabVIEW, LTspice</li>
+        <li>Lab: Transistor testing, optical sensor setup, fiber coupling</li>
       </ul>
     </div>
     <div class="edu-entry">
-      <h3>Sagi Rama Krishnam Raju Engineering College, India</h3>
-      <p><strong>Bachelors in Electronics and Communication Engineering</strong> (June 2019 – May 2022)</p>
+      <h3>SRKR Engineering College, India</h3>
+      <p><strong>Bachelors in ECE</strong> (June 2019 – May 2022)</p>
       <ul>
-        <li>Digital Electronics, Analog and Digital Communications</li>
-        <li>Fiber Optic Communications, Embedded Systems, DIP using MATLAB</li>
-        <li>AI, ML basics, Python & C programming</li>
+        <li>Digital/Analog Communications, DIP using MATLAB, AI & ML basics</li>
       </ul>
     </div>
     <div class="edu-entry">
-      <h3>C V Raman Polytechnic College, India</h3>
-      <p><strong>Diploma in Electronics and Communication Engineering</strong> (June 2016 – April 2019)</p>
-      <ul>
-        <li>Strong foundation in electronics & computer science, ranked top 10%</li>
-      </ul>
+      <h3>C V Raman Polytechnic College</h3>
+      <p><strong>Diploma in ECE</strong> (June 2016 – April 2019)</p>
+      <ul><li>Ranked top 10% with strong electronics/computer science foundation</li></ul>
     </div>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project-entry">
+    <div class="project-card">
       <h3>Autonomous Maze Solver <a href="https://github.com/Vandana1320/CameraCalibration" target="_blank">[GitHub]</a></h3>
-      <p>Image processing project to control a BRIO maze using servos. Developed a camera workflow for object detection and calibration to identify maze elements with 95% detection accuracy. Tools: MATLAB (Camera Calibration), YOLO, Python.</p>
+      <p>Developed a real-time maze navigation system using YOLO, Python, and MATLAB. Integrated hardware control with camera-based object detection, achieving 95% accuracy.</p>
     </div>
-    <div class="project-entry">
-      <h3>Underwater Acoustics and Signal Processing <a href="https://github.com/Vandana1320/UnderWater-Acoustics-and-Signal-Processing" target="_blank">[GitHub]</a></h3>
-      <p>Created MATLAB programs for analyzing beam patterns of linear antenna arrays and simulated sound propagation in water environments with graphical outputs and documentation. Focused on performance enhancement via steering techniques.</p>
+    <div class="project-card">
+      <h3>Underwater Acoustics & Signal Processing <a href="https://github.com/Vandana1320/UnderWater-Acoustics-and-Signal-Processing" target="_blank">[GitHub]</a></h3>
+      <p>Simulated underwater beam propagation using MATLAB. Focused on antenna arrays, side lobe suppression, and frequency variation impacts.</p>
     </div>
-    <div class="project-entry">
-      <h3>Microstrip Patch Antenna with Two Inverted U-slots</h3>
-      <p>Designed a microstrip antenna using MATLAB’s Antenna Designer Tool. Achieved 10% gain improvement over Ansys with compact design accuracy.</p>
+    <div class="project-card">
+      <h3>Patch Antenna with U-Slots</h3>
+      <p>Designed a microstrip patch antenna using MATLAB with 10% better gain than Ansys simulations, optimizing for compact and high-efficiency use.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="job-entry">
+      <h3>Program Analyst Trainee – Cognizant</h3>
+      <p><em>May 2022 – Mar 2023</em></p>
+      <ul>
+        <li>Maintained and validated workflows for banking systems</li>
+        <li>Ensured compliance and collaborated with QA teams</li>
+      </ul>
+    </div>
+    <div class="job-entry">
+      <h3>Software Engineer Intern – Cognizant</h3>
+      <p><em>Feb 2022 – Apr 2022</em></p>
+      <ul>
+        <li>Managed clinical databases using SQL</li>
+        <li>Improved healthcare data quality, leading to a full-time offer</li>
+      </ul>
     </div>
   </section>
 
@@ -63,44 +89,30 @@
     <h2>Skills</h2>
     <ul>
       <li><strong>Programming:</strong> Python, MATLAB, C, SQL</li>
-      <li><strong>Tools & Platforms:</strong> LabVIEW, LTspice, Arduino, PowerCenter</li>
-      <li><strong>Technologies:</strong> YOLO, Signal Processing, Deep Learning, Data Warehousing, ETL</li>
-      <li><strong>Soft Skills:</strong> Independent work, Teamwork, Documentation, Analytical thinking</li>
+      <li><strong>Tools:</strong> LabVIEW, LTspice, Arduino, PowerCenter</li>
+      <li><strong>Technologies:</strong> YOLO, Deep Learning, Signal Processing, ETL</li>
+      <li><strong>Soft Skills:</strong> Teamwork, Analytical Thinking, Documentation</li>
     </ul>
   </section>
 
-  <section id="experience">
-    <h2>Professional Experience</h2>
-    <div class="job-entry">
-      <h3>Program Analyst Trainee – Cognizant Technology Solutions</h3>
-      <p><em>May 2022 – Mar 2023, Hyderabad, India</em></p>
-      <ul>
-        <li>Developed data workflows and ensured accuracy for banking clients.</li>
-        <li>Collaborated with QA teams to validate workflows and documentation.</li>
-        <li>Performed system validation and testing for data workflow integrity.</li>
-      </ul>
-    </div>
-    <div class="job-entry">
-      <h3>Software Engineer Intern – Cognizant Technology Solutions</h3>
-      <p><em>Feb 2022 – Apr 2022, Hyderabad, India</em></p>
-      <ul>
-        <li>Assisted in clinical database management and SQL procedures.</li>
-        <li>Performed SQL operations to ensure healthcare system data integrity.</li>
-        <li>Improved data quality processes, leading to full-time offer.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="certifications">
-    <h2>Certifications & Languages</h2>
-    <ul>
-      <li>Cisco Certified Network Associate (CCNA) – Configured routers/switches with Cisco Packet Tracer</li>
-      <li><strong>Languages:</strong> English – C1 | Hindi – B1 | German – A2 | Telugu – C2</li>
-    </ul>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:vandanachegondi4@gmail.com">vandanachegondi4@gmail.com</a></p>
+    <p>Phone: +49 15212966401</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/VandanaChegondi/" target="_blank">LinkedIn Profile</a></p>
   </section>
 
   <footer>
-    <p>📧 <a href="mailto:vandanachegondi4@gmail.com">vandanachegondi4@gmail.com</a> | 📞 +49 15212966401 | <a href="https://www.linkedin.com/in/VandanaChegondi/">LinkedIn</a></p>
+    <p>&copy; 2025 Vandana Chegondi. All rights reserved.</p>
   </footer>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
 </body>
 </html>
