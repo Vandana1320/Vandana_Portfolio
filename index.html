@@ -2,99 +2,87 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vandana Chegondi – Portfolio</title>
-  <link href="style.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-container">
-      <div class="hero-image">
-        <img src="assets/Vandana-Photo.png" alt="Vandana Chegondi">
-      </div>
-      <div class="hero-text">
-        <h1>Vandana Chegondi</h1>
-        <p>Master’s Student in Electronics Engineering</p>
-        <ul>
-          <li><strong>📍 Location:</strong> Bremen, Germany</li>
-          <li><strong>🎓 Hochschule Bremen:</strong> Master's in Electronics Engineering (2023–Present)</li>
-          <li><strong>🎓 SRKR Engineering College:</strong> B.Tech in ECE (2019–2022)</li>
-          <li><strong>🎓 CV Raman Polytechnic:</strong> Diploma in ECE (2016–2019, First Class)</li>
-          <li><strong>🎂 Date of Birth:</strong> 04-August-2001</li>
-        </ul>
-        <div class="hero-links">
-          <a href="https://www.linkedin.com/in/VandanaChegondi" target="_blank">LinkedIn</a>
-          <a href="https://github.com/Vandana1320" target="_blank">GitHub</a>
-          <a href="Vandana_Resume.pdf" target="_blank">Resume</a>
-        </div>
-      </div>
-    </div>
+  <header>
+    <div><strong>Vandana Chegondi</strong></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <main class="container">
-    <section>
-      <h2>About Me</h2>
-      <p>
-        Passionate and self-motivated Electronics Engineering student with hands-on experience in signal processing, automation, embedded systems, and AI-based sensor technologies. Previously worked at Cognizant and participated in Airbus Innovation Café projects. Actively seeking opportunities to apply my skills in AI-driven R&D environments.
-      </p>
-    </section>
+  <section class="hero">
+    <h1>Vandana Chegondi</h1>
+    <p>Master's in Electronics Engineering – Hochschule Bremen</p>
+  </section>
 
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>Hochschule Bremen – Master’s in Electronics Engineering (2023–Present)</li>
-        <li>SRKR Engineering College – B.Tech in ECE (2019–2022)</li>
-        <li>CV Raman Polytechnic – Diploma in ECE (2016–2019, First Class + CCNA)</li>
-      </ul>
-    </section>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a passionate electronics engineer with a background in embedded systems, computer vision, and AI-driven sensor integration. Experienced at Cognizant and engaged in Airbus Innovation Café with multicultural teams in Germany.</p>
+  </section>
 
-    <section>
-      <h2>Coursework</h2>
-      <ul class="course-list">
-        <li>Autonomous Systems</li>
-        <li>Signal Processing</li>
-        <li>Digital and Analog Circuit Design</li>
-        <li>Embedded Systems and Microcontrollers</li>
-        <li>Underwater Acoustics</li>
-        <li>Image Processing & Computer Vision</li>
-        <li>Electromagnetic Waves and Antenna Design</li>
-        <li>VLSI & CMOS Technology</li>
-        <li>Project Management and Systems Engineering (Airbus Innovation Café)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
+  <section id="projects" class="section">
+    <h2>Featured Projects</h2>
+    <div class="projects">
       <div class="project">
         <h3>Autonomous Maze Solver</h3>
-        <p>Designed a vision-based robot using MATLAB and YOLO to detect and navigate through a maze. Integrated servo motor control for path tracking. Achieved 95% detection accuracy.</p>
+        <p>YOLO + MATLAB robot with real-time servo detection and 95% accuracy.</p>
       </div>
       <div class="project">
-        <h3>Underwater Acoustics & Signal Processing</h3>
-        <p>Simulated beamforming and sound propagation using MATLAB. Focused on acoustic modeling, pressure distribution, and frequency-based simulations.</p>
+        <h3>Underwater Acoustic Simulation</h3>
+        <p>Beamforming and sound wave modeling using MATLAB signal processing.</p>
       </div>
       <div class="project">
-        <h3>Microstrip Patch Antenna</h3>
-        <p>Designed and simulated high-efficiency microstrip antenna using MATLAB’s Antenna Designer Toolbox with 10% higher gain than Ansys benchmark.</p>
+        <h3>Patch Antenna Design</h3>
+        <p>Designed in MATLAB; achieved 10% gain over Ansys simulations.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section>
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li><strong>Languages:</strong> Python, MATLAB, C, Java, SQL, HTML/CSS</li>
-        <li><strong>Tools:</strong> LabVIEW, YOLO, LTspice, Arduino, PowerCenter, JIRA</li>
-        <li><strong>Concepts:</strong> Embedded Systems, Computer Vision, Signal Processing, ETL</li>
-      </ul>
-    </section>
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div><strong>Programming</strong><br/>Python, C, Java, MATLAB</div>
+      <div><strong>Tools</strong><br/>JIRA, LabVIEW, PowerCenter</div>
+      <div><strong>Technologies</strong><br/>YOLO, Signal Processing, Embedded Systems</div>
+      <div><strong>Soft Skills</strong><br/>Teamwork, Communication, Time Management</div>
+      <div><strong>Languages</strong><br/>English, Telugu, Hindi, German (basic)</div>
+    </div>
+  </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:Vandanachegondi4@gmail.com">Vandanachegondi4@gmail.com</a><br/>
-      Phone: +49 15212966401</p>
-    </section>
-  </main>
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="timeline">
+      <div><strong>Hochschule Bremen</strong> – Master's in Electronics Engineering (2023–Present)</div>
+      <div><strong>SRKR Engineering College</strong> – B.Tech ECE (2019–2022)</div>
+      <div><strong>CV Raman Polytechnic</strong> – Diploma ECE + CCNA (2016–2019)</div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Professional Experience</h2>
+    <p><strong>Cognizant Technology Solutions</strong> – Programmer Analyst Trainee</p>
+    <ul>
+      <li>Worked in AIA domain building ETL workflows using Informatica PowerCenter</li>
+      <li>Collaborated with QA and development teams to debug, document and optimize SQL queries</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:Vandanachegondi4@gmail.com">Vandanachegondi4@gmail.com</a></p>
+    <p>Phone: +49 15212966401</p>
+    <p><a href="https://linkedin.com/in/VandanaChegondi">LinkedIn</a> | <a href="https://github.com/Vandana1320">GitHub</a></p>
+  </section>
 
   <footer>
     <p>© 2025 Vandana Chegondi</p>
