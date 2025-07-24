@@ -94,6 +94,12 @@ h2 {
   padding-left: 0;
 }
 
+.course-list {
+  padding-left: 1.2em;
+  list-style-type: disc;
+  color: #333;
+}
+
 footer {
   background: #f0f0f0;
   text-align: center;
