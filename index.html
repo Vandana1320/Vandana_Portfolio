@@ -1,212 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vandana Chegondi - Portfolio</title>
-    <!-- Link to your external CSS file -->
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vandana Chegondi - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="profile-section">
-                <!-- Updated image source to your uploaded photo -->
-                <img src="Vandana-Photo.png" alt="Vandana Chegondi" class="profile-photo">
-                <h1 class="name">Vandana Chegondi</h1>
-                <p class="tagline">Master's student in Electronics Engineering | Sensor Fusion & AI-driven Systems</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/vandana-chegondi" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Vandana1320" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="mailto:Vandanachegondi4@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="tel:+4915212966401" aria-label="Phone"><i class="fas fa-phone"></i></a>
-                </div>
-            </div>
-            <nav class="navigation">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <nav>
+    <ul class="navbar">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <main class="main-content">
-        <section id="about" class="section">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>Master's student in Electronics Engineering with hands-on experience in image processing, embedded systems, and signal analysis. Skilled in Python, MATLAB, and LabVIEW, with a strong interest in sensor fusion and AI-driven systems. Eager to contribute to R&D in autonomous technologies.</p>
-            </div>
-        </section>
+  <header id="about">
+    <img src="Vandana-photo.png" alt="Vandana Chegondi" class="profile-pic" />
+    <h1>Vandana Chegondi</h1>
+    <p>Master’s Student in Electronics Engineering – Hochschule Bremen, Germany</p>
+  </header>
 
-        <section id="education" class="section">
-            <div class="container">
-                <h2>Education</h2>
-                <div class="education-item">
-                    <h3>Hochschule Bremen, Germany</h3>
-                    <p>Masters in Electronics Engineering | Apr 2023 - Present</p>
-                    <ul>
-                        <li>Coursework: Fibre optics and Test Measurement, Optical Communications, Image Processing and Pattern Recognition, Computer Aided and Data Acquisition, embedded systems, focusing on programming languages like Python, MATLAB, LTspice.</li>
-                        <li>Lab Work: Transistor characteristics testing using LabVIEW, hands-on with optical sensor setup, optical alignment, and fiber coupling.</li>
-                    </ul>
-                </div>
-                <div class="education-item">
-                    <h3>Sagi Rama Krishnam Raju Engineering College, India</h3>
-                    <p>Bachelors in Electronics and Communication Engineering | June 2019 - May 2022</p>
-                    <ul>
-                        <li>Coursework: Digital Electronics, Analog and Digital Communications, Fiber Optic Communications, Embedded Systems, Digital Image Processing with MATLAB (Antenna Designer Tool), AI, and Machine Learning basics. Advanced Computer Programming with Python and C.</li>
-                    </ul>
-                </div>
-                <div class="education-item">
-                    <h3>CV Raman Polytechnic College, India</h3>
-                    <p>Diploma in Electronics and Communication Engineering | June 2016 - April 2019</p>
-                    <ul>
-                        <li>Overview: Built a strong electronics and computer science foundation, ranked in the top 10% of the class.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-entry">
+      <h3>Hochschule Bremen, Germany</h3>
+      <p><strong>Masters in Electronics Engineering</strong> (Apr 2023 – Present)</p>
+      <ul>
+        <li>Courses: Fibre Optics, Optical Communication, Image Processing, Embedded Systems</li>
+        <li>Tools: Python, MATLAB, LabVIEW, LTspice</li>
+        <li>Lab: Transistor testing, optical sensor setup, fiber coupling</li>
+      </ul>
+    </div>
+    <div class="edu-entry">
+      <h3>SRKR Engineering College, India</h3>
+      <p><strong>Bachelors in ECE</strong> (June 2019 – May 2022)</p>
+      <ul>
+        <li>Digital/Analog Communications, DIP using MATLAB, AI & ML basics</li>
+      </ul>
+    </div>
+    <div class="edu-entry">
+      <h3>C V Raman Polytechnic College</h3>
+      <p><strong>Diploma in ECE</strong> (June 2016 – April 2019)</p>
+      <ul><li>Ranked top 10% with strong electronics/computer science foundation</li></ul>
+    </div>
+  </section>
 
-        <section id="skills" class="section">
-            <div class="container">
-                <h2>Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Programming</h3>
-                        <ul>
-                            <li>Python</li>
-                            <li>MATLAB</li>
-                            <li>C</li>
-                            <li>SQL</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Tools and Platforms</h3>
-                        <ul>
-                            <li>LabVIEW</li>
-                            <li>LTspice</li>
-                            <li>Arduino</li>
-                            <li>PowerCenter</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Technologies</h3>
-                        <ul>
-                            <li>YOLO</li>
-                            <li>Signal Processing</li>
-                            <li>Deep Learning</li>
-                            <li>Data Warehousing</li>
-                            <li>ETL</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Others</h3>
-                        <ul>
-                            <li>LaTeX</li>
-                            <li>MS Office</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Soft Skills</h3>
-                        <ul>
-                            <li>Independent work</li>
-                            <li>Teamwork</li>
-                            <li>Documentation</li>
-                            <li>Analytical thinking</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Autonomous Maze Solver <a href="https://github.com/Vandana1320/CameraCalibration" target="_blank">[GitHub]</a></h3>
+      <p>Developed a real-time maze navigation system using YOLO, Python, and MATLAB. Integrated hardware control with camera-based object detection, achieving 95% accuracy.</p>
+    </div>
+    <div class="project-card">
+      <h3>Underwater Acoustics & Signal Processing <a href="https://github.com/Vandana1320/UnderWater-Acoustics-and-Signal-Processing" target="_blank">[GitHub]</a></h3>
+      <p>Simulated underwater beam propagation using MATLAB. Focused on antenna arrays, side lobe suppression, and frequency variation impacts.</p>
+    </div>
+    <div class="project-card">
+      <h3>Patch Antenna with U-Slots</h3>
+      <p>Designed a microstrip patch antenna using MATLAB with 10% better gain than Ansys simulations, optimizing for compact and high-efficiency use.</p>
+    </div>
+  </section>
 
-        <section id="experience" class="section">
-            <div class="container">
-                <h2>Experience</h2>
-                <div class="experience-item">
-                    <h3>Program Analyst Trainee <span class="location">Hyderabad, IN</span></h3>
-                    <p class="company">Cognizant Technology Solutions</p>
-                    <p class="duration">May 2022 - March 2023</p>
-                    <ul>
-                        <li>Developed data workflows and processed data to maintain databases for leading banks in Asia, ensuring data accuracy and reliability.</li>
-                        <li>Collaborated with QA teams to validate workflows and maintain documentation for compliance and traceability.</li>
-                        <li>Participated in basic system validation/testing tasks to ensure data workflow integrity.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Software Engineer Intern <span class="location">Hyderabad, IN</span></h3>
-                    <p class="company">Cognizant Technology Solutions</p>
-                    <p class="duration">Feb 2022 - April 2022</p>
-                    <ul>
-                        <li>Worked on Assisted in clinical database management and implemented SQL procedures.</li>
-                        <li>Performed SQL-based operations to manage and maintain system integrity.</li>
-                        <li>Improved data quality processes in healthcare systems, leading to a full-time offer.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="job-entry">
+      <h3>Program Analyst Trainee – Cognizant</h3>
+      <p><em>May 2022 – Mar 2023</em></p>
+      <ul>
+        <li>Maintained and validated workflows for banking systems</li>
+        <li>Ensured compliance and collaborated with QA teams</li>
+      </ul>
+    </div>
+    <div class="job-entry">
+      <h3>Software Engineer Intern – Cognizant</h3>
+      <p><em>Feb 2022 – Apr 2022</em></p>
+      <ul>
+        <li>Managed clinical databases using SQL</li>
+        <li>Improved healthcare data quality, leading to a full-time offer</li>
+      </ul>
+    </div>
+  </section>
 
-        <section id="projects" class="section">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="project-item">
-                    <h3>Autonomous maze solver</h3>
-                    <p class="association">Associated with Hochschule Bremen</p>
-                    <p class="year">2025</p>
-                    <p><a href="https://github.com/Vandana1320/Camera-Calibration" target="_blank">GitHub Repository</a></p>
-                    <ul>
-                        <li>Image processing based project to automatically control a BRIO maze using servos.</li>
-                        <li>Developed a camera workflow involving object detection and calibration, to detect objects in the maze, such as balls, walls of the maze, and the path. Achieved 95% detection rate of the walls and balls of the maze.</li>
-                        <li>Implementation of software and hardware integration, focusing on high accuracy for real-time detections. Documented calibration workflows and implemented iterative improvements.</li>
-                        <li>Tools used: MATLAB (Camera Calibration), YOLO, Python.</li>
-                    </ul>
-                </div>
-                <div class="project-item">
-                    <h3>Under Water Acoustics and Signal Processing</h3>
-                    <p class="association">Associated with Hochschule Bremen</p>
-                    <p class="year">2024</p>
-                    <p><a href="https://github.com/Vandana1320/Under-Water-Acoustics-and-Signal-Processing" target="_blank">GitHub Repository</a></p>
-                    <ul>
-                        <li>Developed a MATLAB program to analyze beam patterns of linear antenna arrays and implemented side lobe suppression and steering techniques for optimized performance.</li>
-                        <li>Determined pressure distribution in underwater environments with a graphical representation by designing a MATLAB model. Simulated sound propagation considering bottom and surface reflections with varying frequencies.</li>
-                        <li>Prepared detailed technical documentation summarizing methodology, implementation, and results for academic purposes.</li>
-                    </ul>
-                </div>
-                <div class="project-item">
-                    <h3>Improving gain of Microstrip patch antenna using two inverted U-slots</h3>
-                    <p class="association">in MATLAB (Associated with SRKR Engineering College)</p>
-                    <p class="year">2022</p>
-                    <ul>
-                        <li>Designed a Microstrip patch antenna with the help of the "Antenna Designer Tool" in MATLAB to achieve high accuracy when compared to other tools like Ansys.</li>
-                        <li>Observed 10% higher gain in a Microstrip patch antenna using MATLAB than Ansys, overcoming the challenges posed by its compact and precise design.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming:</strong> Python, MATLAB, C, SQL</li>
+      <li><strong>Tools:</strong> LabVIEW, LTspice, Arduino, PowerCenter</li>
+      <li><strong>Technologies:</strong> YOLO, Deep Learning, Signal Processing, ETL</li>
+      <li><strong>Soft Skills:</strong> Teamwork, Analytical Thinking, Documentation</li>
+    </ul>
+  </section>
 
-        <section id="contact" class="section">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
-                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:Vandanachegondi4@gmail.com">Vandanachegondi4@gmail.com</a></p>
-                <p><i class="fas fa-phone"></i> Phone: <a href="tel:+4915212966401">+49 152129 66401</a></p>
-                <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/vandana-chegondi" target="_blank">Vandana Chegondi</a></p>
-                <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Vandana1320" target="_blank">Vandana1320</a></p>
-                <p><i class="fas fa-map-marker-alt"></i> Location: Geschwornenweg 176, 28201 Bremen, Germany</p>
-            </div>
-        </section>
-    </main>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:vandanachegondi4@gmail.com">vandanachegondi4@gmail.com</a></p>
+    <p>Phone: +49 15212966401</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/VandanaChegondi/" target="_blank">LinkedIn Profile</a></p>
+  </section>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Vandana Chegondi. All rights reserved.</p>
-        </div>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Vandana Chegondi. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
 </body>
 </html>
