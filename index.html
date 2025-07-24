@@ -3,89 +3,104 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vandana Chegondi – Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <title>Vandana Chegondi - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div><strong>Vandana Chegondi</strong></div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#education">Education</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <img src="Vandana-photo.png" alt="Vandana Chegondi" class="profile-pic" />
+    <h1>Vandana Chegondi</h1>
+    <p>Master’s Student in Electronics Engineering – Hochschule Bremen, Germany</p>
   </header>
 
-  <section class="hero">
-    <h1>Vandana Chegondi</h1>
-    <p>Master's in Electronics Engineering – Hochschule Bremen</p>
-  </section>
-
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>I am a passionate electronics engineer with a background in embedded systems, computer vision, and AI-driven sensor integration. Experienced at Cognizant and engaged in Airbus Innovation Café with multicultural teams in Germany.</p>
-  </section>
-
-  <section id="projects" class="section">
-    <h2>Featured Projects</h2>
-    <div class="projects">
-      <div class="project">
-        <h3>Autonomous Maze Solver</h3>
-        <p>YOLO + MATLAB robot with real-time servo detection and 95% accuracy.</p>
-      </div>
-      <div class="project">
-        <h3>Underwater Acoustic Simulation</h3>
-        <p>Beamforming and sound wave modeling using MATLAB signal processing.</p>
-      </div>
-      <div class="project">
-        <h3>Patch Antenna Design</h3>
-        <p>Designed in MATLAB; achieved 10% gain over Ansys simulations.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div><strong>Programming</strong><br/>Python, C, Java, MATLAB</div>
-      <div><strong>Tools</strong><br/>JIRA, LabVIEW, PowerCenter</div>
-      <div><strong>Technologies</strong><br/>YOLO, Signal Processing, Embedded Systems</div>
-      <div><strong>Soft Skills</strong><br/>Teamwork, Communication, Time Management</div>
-      <div><strong>Languages</strong><br/>English, Telugu, Hindi, German (basic)</div>
-    </div>
-  </section>
-
-  <section id="education" class="section">
+  <section id="education">
     <h2>Education</h2>
-    <div class="timeline">
-      <div><strong>Hochschule Bremen</strong> – Master's in Electronics Engineering (2023–Present)</div>
-      <div><strong>SRKR Engineering College</strong> – B.Tech ECE (2019–2022)</div>
-      <div><strong>CV Raman Polytechnic</strong> – Diploma ECE + CCNA (2016–2019)</div>
+    <div class="edu-entry">
+      <h3>Hochschule Bremen, Germany</h3>
+      <p><strong>Masters in Electronics Engineering</strong> (Apr 2023 – Present)</p>
+      <ul>
+        <li>Fibre Optics and Test Measurement, Optical Communications</li>
+        <li>Image Processing and Pattern Recognition</li>
+        <li>Embedded Systems (Python, MATLAB, LTspice)</li>
+        <li>Lab: Transistor testing using LabVIEW, optical sensor setup, alignment, fiber coupling</li>
+      </ul>
+    </div>
+    <div class="edu-entry">
+      <h3>Sagi Rama Krishnam Raju Engineering College, India</h3>
+      <p><strong>Bachelors in Electronics and Communication Engineering</strong> (June 2019 – May 2022)</p>
+      <ul>
+        <li>Digital Electronics, Analog and Digital Communications</li>
+        <li>Fiber Optic Communications, Embedded Systems, DIP using MATLAB</li>
+        <li>AI, ML basics, Python & C programming</li>
+      </ul>
+    </div>
+    <div class="edu-entry">
+      <h3>C V Raman Polytechnic College, India</h3>
+      <p><strong>Diploma in Electronics and Communication Engineering</strong> (June 2016 – April 2019)</p>
+      <ul>
+        <li>Strong foundation in electronics & computer science, ranked top 10%</li>
+      </ul>
     </div>
   </section>
 
-  <section id="experience" class="section">
-    <h2>Professional Experience</h2>
-    <p><strong>Cognizant Technology Solutions</strong> – Programmer Analyst Trainee</p>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-entry">
+      <h3>Autonomous Maze Solver <a href="https://github.com/Vandana1320/CameraCalibration" target="_blank">[GitHub]</a></h3>
+      <p>Image processing project to control a BRIO maze using servos. Developed a camera workflow for object detection and calibration to identify maze elements with 95% detection accuracy. Tools: MATLAB (Camera Calibration), YOLO, Python.</p>
+    </div>
+    <div class="project-entry">
+      <h3>Underwater Acoustics and Signal Processing <a href="https://github.com/Vandana1320/UnderWater-Acoustics-and-Signal-Processing" target="_blank">[GitHub]</a></h3>
+      <p>Created MATLAB programs for analyzing beam patterns of linear antenna arrays and simulated sound propagation in water environments with graphical outputs and documentation. Focused on performance enhancement via steering techniques.</p>
+    </div>
+    <div class="project-entry">
+      <h3>Microstrip Patch Antenna with Two Inverted U-slots</h3>
+      <p>Designed a microstrip antenna using MATLAB’s Antenna Designer Tool. Achieved 10% gain improvement over Ansys with compact design accuracy.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
     <ul>
-      <li>Worked in AIA domain building ETL workflows using Informatica PowerCenter</li>
-      <li>Collaborated with QA and development teams to debug, document and optimize SQL queries</li>
+      <li><strong>Programming:</strong> Python, MATLAB, C, SQL</li>
+      <li><strong>Tools & Platforms:</strong> LabVIEW, LTspice, Arduino, PowerCenter</li>
+      <li><strong>Technologies:</strong> YOLO, Signal Processing, Deep Learning, Data Warehousing, ETL</li>
+      <li><strong>Soft Skills:</strong> Independent work, Teamwork, Documentation, Analytical thinking</li>
     </ul>
   </section>
 
-  <section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:Vandanachegondi4@gmail.com">Vandanachegondi4@gmail.com</a></p>
-    <p>Phone: +49 15212966401</p>
-    <p><a href="https://linkedin.com/in/VandanaChegondi">LinkedIn</a> | <a href="https://github.com/Vandana1320">GitHub</a></p>
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div class="job-entry">
+      <h3>Program Analyst Trainee – Cognizant Technology Solutions</h3>
+      <p><em>May 2022 – Mar 2023, Hyderabad, India</em></p>
+      <ul>
+        <li>Developed data workflows and ensured accuracy for banking clients.</li>
+        <li>Collaborated with QA teams to validate workflows and documentation.</li>
+        <li>Performed system validation and testing for data workflow integrity.</li>
+      </ul>
+    </div>
+    <div class="job-entry">
+      <h3>Software Engineer Intern – Cognizant Technology Solutions</h3>
+      <p><em>Feb 2022 – Apr 2022, Hyderabad, India</em></p>
+      <ul>
+        <li>Assisted in clinical database management and SQL procedures.</li>
+        <li>Performed SQL operations to ensure healthcare system data integrity.</li>
+        <li>Improved data quality processes, leading to full-time offer.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications & Languages</h2>
+    <ul>
+      <li>Cisco Certified Network Associate (CCNA) – Configured routers/switches with Cisco Packet Tracer</li>
+      <li><strong>Languages:</strong> English – C1 | Hindi – B1 | German – A2 | Telugu – C2</li>
+    </ul>
   </section>
 
   <footer>
-    <p>© 2025 Vandana Chegondi</p>
+    <p>📧 <a href="mailto:vandanachegondi4@gmail.com">vandanachegondi4@gmail.com</a> | 📞 +49 15212966401 | <a href="https://www.linkedin.com/in/VandanaChegondi/">LinkedIn</a></p>
   </footer>
 </body>
 </html>
